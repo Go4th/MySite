@@ -1,0 +1,49 @@
+[
+    {
+        "WorkItemId": "001",
+        "WorkItemTitle": "WorldPages.com",
+        "WorkItemDescr": "Billy's experience in web development began here in 2000. This was one of the first companies to migrate yellow page directories to an online platform. Here I desiged websites and brands for clients/organizations.",
+        "WorkItemTimeStart": "01-030-1998",
+        "WorkItemTimeEnd": "03-01-2005",
+        "WorkItemDuties": "Web and Display Design.",
+        "WorkImgName": "../assets/img/world_pages.png"
+    },
+    {
+        "WorkItemId": "002",
+        "WorkItemTitle": "GRF Graphics",
+        "WorkItemDescr": "Designed and built web directories for yellowpages. Specialties in branding, ad layout, display advertising design,  magazine design, logo/brand development, and company/client websites.",
+        "WorkItemTimeStart": "03-01-2005",
+        "WorkItemTimeEnd": "05-01-2009",
+        "WorkItemDuties": "Web Developer, Brand Development",
+        "WorkImgName": "../assets/img/grf_logo.png"
+    },
+    {
+        "WorkItemId":"003",
+        "WorkItemTitle": "cat-man-du",
+        "WorkItemDescr": "Web Developer And Social Marketing Lead.",
+        "WorkItemTimeStart": "05-31-2008",
+        "WorkItemTimeEnd": "01-01-2016",
+        "WorkItemDuties": "Web development using HTML5, CSS3, SASS, PHP, Javascript and CMS architecture (Drupal) as well as raw PHP internal portal development. Planned and implemented all web/social integration and campaign deployments for growing customer base.",
+        "WorkImgName": "../assets/img/cmd.png"
+    },
+    {
+        "WorkItemId": "004",
+        "WorkItemTitle": "Townsquare Media",
+        "WorkItemDescr": "Web Developer and Digital Managing Editor. ",
+        "WorkItemTimeStart": "10-15-2009",
+        "WorkItemTimeEnd": "07-15-2015",
+        "WorkItemDuties": "Web development using HTML5, CSS3, SASS, Javascript and digital/content marketing. Also managed 12 contributors of content to brand station websites along with written/video content and social marketing campaigns.",
+        "WorkImgName": "../assets/img/tsm_logo.png"
+    },
+    {
+        "WorkItemId": "005",
+        "WorkItemTitle": "Maxor NPSC",
+        "WorkItemDescr": "Full Stack Web And Mobile Application Developer ",
+        "WorkItemTimeStart": "10-15-2015",
+        "WorkItemTimeEnd": "01-01-2019",
+        "WorkItemDuties": "Web and mobile app development for PBM and Retail pharmacy locations. Enterprise application development for internal support tools and dashboards for Customer Service division. All technologies built using Angular (Typescript Versions), AngularJS, HTML5, CSS3, SASS, .NET (WebApi), SOAP, SQL, C#, and VB.Net.",
+        "WorkImgName": "../assets/img/maxor_thum.png"
+    }
+
+
+]

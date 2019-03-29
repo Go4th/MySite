@@ -1,0 +1,33 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: #444;
+}
+mat-sidenav.sidenav.mat-drawer {
+  left: 0px;
+  background: #333;
+}
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 100px;
+  z-index: 3;
+}
+
+mat-sidenav-content.mat-drawer-content.mat-sidenav-content {
+  position: fixed;
+  top: -99px;
+  right: 0px;
+  z-index: 40;
+}
+mat-toolbar.mat-toolbar.mat-primary.mat-toolbar-single-row {
+  background: none;
+}
+mat-nav-list.mat-nav-mobile a {
+  color: #fff!Important;
+}

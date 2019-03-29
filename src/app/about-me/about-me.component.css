@@ -1,0 +1,43 @@
+mat-card.about-card {
+    margin: 20px;
+    background: rgba(0,0,0,.8);
+}
+.right-rail img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.right-rail {
+    width: 20%;
+    float: left;
+    display: block;
+}
+.content-inner {
+    width: 80%;
+    float: left;
+}
+mat-card-subtitle.mat-card-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+mat-card-title.mat-card-title {
+    font-size: 25px;
+    color: limegreen;
+}
+mat-card-subtitle.sub-info {
+    margin: 24px 0 0 0!important;
+    /* border-top: 1px solid #fff; */
+    /* padding: 20px 0 0 0; */
+}
+@media screen and (max-width: 700px) {
+    .right-rail {
+     display: none;
+    }
+    .content-inner {
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+  }

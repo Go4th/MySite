@@ -1,0 +1,33 @@
+.history-card {
+    width: 28%;
+    float: left;
+    min-height: 380px;
+    margin: 10px;
+}
+.history-card img.mat-card-image {
+    margin-bottom: 0px;
+}
+mat-divider.history-hr {
+    margin-bottom: 10px!important;
+}
+.container-inner {
+    width: 78%
+}
+
+@media screen and (max-width: 700px) {
+    
+    .content-inner {
+        width: 85%!important;
+        margin: auto;
+    }
+    .history-card {
+        width: 90%;
+        margin: 10px auto;
+        float: none;
+        min-height: unset!important;
+    }
+    
+}
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+  }

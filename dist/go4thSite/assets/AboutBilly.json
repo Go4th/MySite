@@ -1,0 +1,15 @@
+[
+    
+    {
+        "AboutItemId": "002",
+        "AboutItemTitle": "Professional",
+        "AboutItemDescr": "Billy believes that the learning process is never 'done' when it comes to programming, especially in the web and mobile application development ecosystem. The web/mobile development landscape is ever-changing and evolving which requires a developer to be vigilant in keeping their skill-set on point. Billy is flexible and well versed in almost any development environment including Angular, React, Pure Javascript, .NET, Entity Framework, C#, PUP, SQL, MYSQL, and NOSQL database environments (Firebase, Mongo, and MEAN Stack). He is also well versed in native mobile programming using Java (Android), Swift and Objective C (iOS). He also hase vast experience with Hybrid mobile app technologies like Ionic and React Native. He also specializes in developing robust Web API (REST) services that facilitate large scale funcationl web and mobile applications.",
+        "AboutItemDescr2": "Billy has designed and built full stack Customer Service management portals and large scale client facing portals for providers and carriers in the healthcare industry. He has multiple mobile apps currently being distributed in the Google Play and iTunes app stores. He has built multiple hand-held mobile concierge applications that streamline workflows. He has also built countless websites and medium to large scale client websites using raw code and Content Management System (CMS) development. He has experience with the handling of HIPAA and PCI data and best practices."
+    },
+    {
+        "AboutItemId": "001",
+        "AboutItemTitle": "Personal",
+        "AboutItemDescr": "Billy is an Amarillo native and studied web development and programming at Amarillo college which supplements his extensive two decades of experience. Coding is a passion for Billy. He is married with two children. He enjoys mountain biking, traveling, fishing, grilling/smoking various meats, and most of all spending time with his family.",
+        "AboutImgName": "../assets/img/photo_me.jpg"
+    }
+]

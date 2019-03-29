@@ -1,10 +1,45 @@
-<div class="header">
-  <div class="header-inner">
-    <div class="logo-wrapper">
-        <img class="logo" src="../assets/img/billy-goforth-logo.png"/>
-    </div>
-    
-  </div>
+<div class="header-wrapper">
+    <mat-toolbar>
+        
+        <mat-toolbar-row class="nav-row">
+          <div class="mobile-nav">
+              <app-my-nav></app-my-nav>
+          </div>
+            
+          <span class="example-spacer"></span>
+          <div class="nav-container">
+              <button mat-button ><a routerLink="about"><i class="material-icons nav-icon">person</i>About</a></button>
+              <button mat-button><a routerLink="work-history"><i class="material-icons nav-icon">code</i>Work History</a></button>
+              <button mat-button ><a routerLink="portfolio"><i class="material-icons nav-icon">folder_special</i>Portfolio</a></button>
+              <button mat-button><a routerLink="inspiration"><i class="material-icons nav-icon">flare</i>Inspiration</a></button>
+              <button mat-button><a routerLink="contact"><i class="material-icons nav-icon">send</i>Contact</a></button>
+          </div>
+          
+        </mat-toolbar-row>
+        <mat-toolbar-row class="main-row">
+          <div class="logo-wrapper">
+            <a routerLink="about">
+                <img class="logo" src="../assets/img/billy-goforth-logo.png"/>
+            </a>
+            
+        </div>
+        <span class="example-spacer"></span>
+        <div class="social-wrapper">
+            <a href="https://www.facebook.com/billygoforth"><img src="https://img.icons8.com/material/48/000000/facebook.png"></a>
+            <a href="https://twitter.com/BillyGoforth"><img src="https://img.icons8.com/material/48/000000/twitter.png"></a>
+            <a href="https://www.linkedin.com/in/billy-goforth-06917657/"><img src="https://img.icons8.com/material/48/000000/linkedin.png"></a>
+        </div>
+        </mat-toolbar-row>
+      
+        
+      </mat-toolbar>
 </div>
 
-<router-outlet></router-outlet>
+<div class="content-container">
+  <router-outlet></router-outlet>
+  <div class="footer-wrapper">
+        <app-footer></app-footer>
+    </div>
+</div>
+
+

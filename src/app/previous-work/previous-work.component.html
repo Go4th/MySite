@@ -1,0 +1,15 @@
+<mat-toolbar>
+  Work History
+</mat-toolbar>
+<div class="container-inner">
+    <mat-card *ngFor="let item of workHistory | sortOrder" class="history-card">
+        <img mat-card-image src="{{item.WorkImgName}}">
+        <mat-divider class="history-hr" [inset]="true"></mat-divider>
+        <mat-card-title>{{item.WorkItemTitle}}</mat-card-title>
+        <mat-card-content>{{item.WorkItemDescr}}</mat-card-content>
+        <mat-card-subtitle>{{item.WorkItemDuties}}</mat-card-subtitle>
+        <mat-card-actions>{{item.WorkItemTimeStart | date}} - {{item.WorkItemTimeEnd | date}}</mat-card-actions>
+        <mat-card-footer></mat-card-footer>
+    </mat-card>
+    
+</div>

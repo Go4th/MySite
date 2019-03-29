@@ -1,0 +1,23 @@
+<mat-toolbar>
+    Inspiration
+  </mat-toolbar>
+  <div class="container-inner">
+    <div class="card-wrapper" *ngFor="let item of inspirationInfo; let i=index">
+      <div class="card-wrapper-inner">
+          <mat-card class="inspiration-card">
+              <div class="card-image-wrapper">
+                  <img mat-card-image src="{{item.Img}}" (click)="open(item.IndexId)">
+              </div>
+                
+                <mat-divider class="history-hr" [inset]="true"></mat-divider>
+                <mat-card-title>{{item.Title}}</mat-card-title>
+                <mat-card-content>{{item.Description}}</mat-card-content>
+                <mat-card-footer></mat-card-footer>
+            </mat-card>
+      </div>
+        
+    </div>
+      
+      
+  </div>
+  

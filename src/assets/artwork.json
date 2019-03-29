@@ -1,0 +1,73 @@
+[
+    
+    {
+        "ID": "001",
+        "Title": "Boogs",
+        "Description": "Drawing of my daughter.",
+        "Img": "./assets/img/artwork/art_boogs.jpg",
+        "IndexId": 1
+    },
+    {
+        "ID": "002",
+        "Title": "Abstract Design",
+        "Description": "This is an abstract design pulled from brush stroke master.",
+        "Img": "./assets/img/artwork/art_design.jpg",
+        "IndexId": 2
+    },
+    {
+        "ID": "003",
+        "Title": "Still Drawing",
+        "Description": "This is a still drawing from stone bust and other items.",
+        "Img": "./assets/img/artwork/art_drawing.jpg",
+        "IndexId": 3
+    },
+    {
+        "ID": "04",
+        "Title": "Painting Of Flowers",
+        "Description": "This is a watercolor painting of flowers for which the outline is continuous.",
+        "Img": "./assets/img/artwork/art_flowers.jpg",
+        "IndexId": 4
+    },
+    {
+        "ID": "05",
+        "Title": "Ink Silhoutte Of Jennifer",
+        "Description": "This is an ink silhoutte of my wife with Saiga 12 Shotgun.",
+        "Img": "./assets/img/artwork/art_jennifer.jpg",
+        "IndexId": 5
+    },
+    {
+        "ID": "06",
+        "Title": "Reverse Oragami",
+        "Description": "This is reverse drawing using eraser.",
+        "Img": "./assets/img/artwork/art_origami.jpg",
+        "IndexId": 6
+    },
+    {
+        "ID": "07",
+        "Title": "Painting of Skull",
+        "Description": "This is a painting of some skulls.",
+        "Img": "./assets/img/artwork/art_painting.jpg",
+        "IndexId": 7
+    },
+    {
+        "ID": "08",
+        "Title": "Reverse Sketch Of Teddy",
+        "Description": "White pencil sketch of our dog teddy.",
+        "Img": "./assets/img/artwork/art_teddy.jpg",
+        "IndexId": 8
+    },
+    {
+        "ID": "09",
+        "Title": "Tree Sketch",
+        "Description": "Charcoal sketch of courtyard.",
+        "Img": "./assets/img/artwork/art_tree.jpg",
+        "IndexId": 9
+    },
+    {
+        "ID": "10",
+        "Title": "Drawing Of Vases",
+        "Description": "Progression drawing of still life.",
+        "Img": "./assets/img/artwork/art_vases.jpg",
+        "IndexId": 10
+    }
+]

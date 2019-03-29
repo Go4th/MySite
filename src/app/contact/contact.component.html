@@ -1,0 +1,52 @@
+<mat-toolbar>
+    Contact
+  </mat-toolbar>
+  <div class="container-inner">
+      <div class="content-inner">
+          <h3>Use the form to reach out to Billy with any questions.</h3>
+          <h5>Communications are typically answered that day.</h5>
+    <form [formGroup]="contactForm" class="contact-form" (submit)="submitContact(contactForm.value)" id="contactForm">
+        <div class="form-field-wrapper">
+            <mat-form-field class="half-width">
+                <input matInput type="text" name="fName" formControlName="fName">
+                <mat-placeholder class="placeholder">First Name</mat-placeholder>
+              </mat-form-field>
+        </div>
+        
+        <div class="form-field-wrapper">
+            <mat-form-field class="half-width">
+                <input matInput type="text" name="lName" formControlName="lName">
+                <mat-placeholder class="placeholder">Last Name</mat-placeholder>
+              </mat-form-field>  
+        </div>
+        
+        <div class="form-field-wrapper">
+            <mat-form-field class="half-width">
+                <input matInput type="text" name="phone" formControlName="phone">
+                <mat-placeholder class="placeholder">Phone</mat-placeholder>
+              </mat-form-field>  
+          </div>
+        
+        <div class="form-field-wrapper">
+            <mat-form-field  class="half-width">
+                <input matInput type="email" name="email" formControlName="email">
+                <mat-placeholder class="placeholder">Email</mat-placeholder>
+              </mat-form-field>  
+          </div>
+        
+        <div class="form-field-wrapper text-area">
+            <mat-form-field class="full-width">
+                <textarea matInput type="text" name="comments" formControlName="comments"></textarea>
+                <mat-placeholder class="placeholder">Question or comment...</mat-placeholder>
+              </mat-form-field>  
+          </div>
+          <button mat-button type="submit" [disabled]="!contactForm.valid" class="send-email" >Send Email</button>
+          <span [class]="responseClass" *ngIf="responseText">{{responseText}}</span>
+      
+    </form>
+        </div>
+      <div class="right-rail">
+          <img class="about-img" src="../../assets/img/photo_me.jpg"/>
+    </div>
+    
+  </div>

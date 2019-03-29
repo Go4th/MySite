@@ -1,0 +1,23 @@
+.card-image-wrapper {
+    max-height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-wrapper-inner {
+    margin: 10px;
+}
+.card-wrapper {
+    width: 33%;
+    float: left;
+}
+mat-card.inspiration-card.mat-card {
+    min-height: 370px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .card-wrapper {
+        width: 100%;
+    }
+}

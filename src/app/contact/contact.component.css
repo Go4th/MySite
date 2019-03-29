@@ -1,0 +1,93 @@
+.container-inner {
+    margin: 20px auto;
+    background: rgba(0,0,0,.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    overflow: auto;
+    width: 75%
+}
+mat-form-field.full-width {
+    width: 95%;
+}
+h3 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0 0 0 0;
+}
+h5 {
+    color: #fff;
+    /* font-size: 25px; */
+    font-style: italic;
+    font-weight: normal;
+    margin: 10px 0 5px 0;
+}
+mat-form-field.half-width {
+    width: 50%;
+}
+.right-rail img {
+    width: 100%;
+}
+
+.right-rail {
+    width: 25%;
+    float: left;
+}
+.content-inner {
+    width: 75%;
+    float: left;
+}
+/* When the input is not focused */
+.mat-focused .placeholder {
+    color: limegreen;
+}
+  
+  /* When the input is focused */
+  .placeholder {
+    color: lime;
+  }
+
+  :host /deep/ .mat-form-field-underline {
+    background-color: #fff!important;
+  }
+  :host /deep/ .mat-focused .mat-form-field-underline .mat-form-field-ripple{ background: lightgreen; }
+  input, textarea {
+      color: #fff!important
+  }
+
+  button.send-email.mat-button {
+    background: limegreen;
+    color: #fff;
+}
+/* :host /deep/ .text-area .mat-form-field-infix {
+    height: 100px!important;
+} */
+textarea#mat-input-4 {
+    height: 105px;
+}
+button.send-email.mat-button[disabled] {
+    background: lightgreen;
+    cursor: not-allowed;
+}
+span.SUCCESS {
+    color: lime;
+    margin: 20px;
+}
+span.ERROR {
+    color: orange;
+    margin: 20px;
+}
+@media screen and (max-width: 700px) {
+    .right-rail {
+     display: none;
+    }
+    .content-inner {
+        width: 100%!important;
+    }
+    mat-form-field.half-width {
+        width: 100%!important;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+  }
